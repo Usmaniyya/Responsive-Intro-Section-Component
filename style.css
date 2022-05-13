@@ -46,16 +46,23 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 2rem 1.5rem;
+        padding: 1rem 1.5rem;
+    }
+    
+    .nav-logo {
+        margin-top: .7rem;
     }
     
     .nav-menu {
         display: flex;
-        justify-content: space-between;
     }
     
     .nav-item {
         margin-left: 1rem;
+    }
+    
+    .right {
+        margin-left: auto;
     }
     
     .nav-link {
@@ -117,7 +124,7 @@
         padding: 10px 15px;
         color: var(--almost-White);
         border-radius: 8px;
-        margin-bottom: 4rem;
+        margin-bottom: 3rem;
         width: 25%;
     }
     
@@ -125,10 +132,6 @@
         background-color: var(--almost-White);
         color: var(--almost-Black);
         border: 1px solid var(--almost-Black);
-    }
-    
-    .clients {
-        margin-bottom: 1rem;
     }
     
     .clients img {
@@ -154,11 +157,11 @@
     @media only screen and (max-width: 768px) {
         .nav-menu {
             position: fixed;
-            left: -100%;
-            top: 4rem;
+            left: 100%;
+            top: 5rem;
             flex-direction: column;
             background-color: #fff;
-            width: 40%;
+            width: 50%;
             border-radius: 10px;
             text-align: center;
             transition: 0.3s;
